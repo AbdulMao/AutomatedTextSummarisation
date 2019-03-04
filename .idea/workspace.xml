@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="083abe51-95c7-4578-8b44-0d0c58383f7e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extractive-summarisation/page-rank-summariser.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/extractive-summarisation/summariser/calculateSimilarity.py" beforeDir="false" afterPath="$PROJECT_DIR$/extractive-summarisation/summariser/calculateSimilarity.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extractive-summarisation/summariser/cleanData.py" beforeDir="false" afterPath="$PROJECT_DIR$/extractive-summarisation/summariser/cleanData.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extractive-summarisation/summariser/summariser.py" beforeDir="false" afterPath="$PROJECT_DIR$/extractive-summarisation/summariser/summariser.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,65 +19,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/extractive-summarisation/summariser/summariser.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-              <folding>
-                <element signature="e#0#16#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/extractive-summarisation/summariser/topicmodel.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="671">
-              <caret line="65" column="48" lean-forward="true" selection-start-line="65" selection-start-column="48" selection-end-line="65" selection-end-column="48" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/extractive-summarisation/summariser/test-article2.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
-              <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/extractive-summarisation/summariser/test-article.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="142" selection-start-column="1" selection-end-column="142" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/extractive-summarisation/page-rank-summariser.py">
+        <entry file="file://$PROJECT_DIR$/extractive-summarisation/topic-model/topic_recognition.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
-              <caret line="11" selection-start-line="11" selection-end-line="14" selection-end-column="35" />
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
               <folding>
-                <element signature="e#0#18#0" expanded="true" />
+                <element signature="e#0#25#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/extractive-summarisation/summariser/cleanData.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" selection-start-line="1" selection-end-line="2" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -95,24 +48,30 @@
       <list>
         <option value="$PROJECT_DIR$/extractive-summarisation/page-rank-summariser.py" />
         <option value="$PROJECT_DIR$/extractive-summarisation/api/flask.py" />
-        <option value="$PROJECT_DIR$/extractive-summarisation/summariser/cleanData.py" />
         <option value="$PROJECT_DIR$/extractive-summarisation/summariser/sentenceVectors.py" />
-        <option value="$PROJECT_DIR$/extractive-summarisation/summariser/calculateSimilarity.py" />
         <option value="$PROJECT_DIR$/extractive-summarisation/api/controllers.py" />
-        <option value="$PROJECT_DIR$/extractive-summarisation/summariser/summariser.py" />
         <option value="$PROJECT_DIR$/extractive-summarisation/summariser/controllers.py" />
         <option value="$PROJECT_DIR$/extractive-summarisation/summariser/topicmodeltest.py" />
         <option value="$PROJECT_DIR$/extractive-summarisation/summariser/test1.py" />
         <option value="$PROJECT_DIR$/extractive-summarisation/summariser/test-article2.txt" />
         <option value="$PROJECT_DIR$/extractive-summarisation/summariser/topicmodel.py" />
+        <option value="$PROJECT_DIR$/extractive-summarisation/topic-model/prepare-data.py" />
+        <option value="$PROJECT_DIR$/extractive-summarisation/summariser/calculateSimilarity.py" />
+        <option value="$PROJECT_DIR$/extractive-summarisation/summariser/cleanData.py" />
+        <option value="$PROJECT_DIR$/extractive-summarisation/summariser/summariser.py" />
+        <option value="$PROJECT_DIR$/extractive-summarisation/topic-model/test.py" />
+        <option value="$PROJECT_DIR$/extractive-summarisation/topic-model/svd-model.py" />
+        <option value="$PROJECT_DIR$/extractive-summarisation/topic-model/topic-recognition.py" />
+        <option value="$PROJECT_DIR$/extractive-summarisation/topic-model/test1.py" />
+        <option value="$PROJECT_DIR$/extractive-summarisation/topic-model/svd_model.py" />
+        <option value="$PROJECT_DIR$/extractive-summarisation/topic-model/topic_recognition.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="22" />
-    <option name="y" value="-19" />
-    <option name="width" value="1920" />
-    <option name="height" value="1040" />
+    <option name="x" value="-7" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -122,6 +81,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -140,11 +100,16 @@
               <item name="extractive-summarisation" type="462c0819:PsiDirectoryNode" />
               <item name="summariser" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="AutomatedTextSummarisation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutomatedTextSummarisation" type="462c0819:PsiDirectoryNode" />
+              <item name="extractive-summarisation" type="462c0819:PsiDirectoryNode" />
+              <item name="topic-model" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -152,6 +117,9 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\git\AutomatedTextSummarisation\extractive-summarisation\topic-model" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\git\AutomatedTextSummarisation\extractive-summarisation\summariser" />
     </key>
@@ -168,8 +136,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.topicmodel">
-    <configuration name="controllers" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.topic_recognition">
+    <configuration name="prepare-data" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="AutomatedTextSummarisation" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -177,11 +145,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/extractive-summarisation/api" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/extractive-summarisation/topic-model" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\git\AutomatedTextSummarisation\extractive-summarisation\summariser\controllers.py" />
+      <option name="SCRIPT_NAME" value="C:\git\AutomatedTextSummarisation\extractive-summarisation\topic-model\prepare_data.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -190,7 +158,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="page-rank-summariser" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="AutomatedTextSummarisation" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -198,11 +166,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/extractive-summarisation" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/extractive-summarisation/topic-model" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/extractive-summarisation/page-rank-summariser.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/extractive-summarisation/topic-model/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -211,7 +179,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="summariser" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test1 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="AutomatedTextSummarisation" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -219,11 +187,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/extractive-summarisation/summariser" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/extractive-summarisation/topic-model" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/extractive-summarisation/summariser/summariser.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/extractive-summarisation/topic-model/test1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -232,7 +200,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="topic-recognition" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="AutomatedTextSummarisation" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -240,11 +208,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/extractive-summarisation/summariser" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/extractive-summarisation/topic-model" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/extractive-summarisation/summariser/test1.py" />
+      <option name="SCRIPT_NAME" value="C:\git\AutomatedTextSummarisation\extractive-summarisation\topic-model\topic_recognition.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -253,7 +221,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="topicmodel" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="topic_recognition" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="AutomatedTextSummarisation" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -261,11 +229,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/extractive-summarisation/summariser" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/extractive-summarisation/topic-model" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/extractive-summarisation/summariser/topicmodel.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/extractive-summarisation/topic-model/topic_recognition.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -276,11 +244,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.topicmodel" />
-        <item itemvalue="Python.test1" />
-        <item itemvalue="Python.summariser" />
-        <item itemvalue="Python.controllers" />
-        <item itemvalue="Python.page-rank-summariser" />
+        <item itemvalue="Python.topic_recognition" />
+        <item itemvalue="Python.test1 (1)" />
+        <item itemvalue="Python.topic-recognition" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.prepare-data" />
       </list>
     </recent_temporary>
   </component>
@@ -300,12 +268,12 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27555323" />
       <window_info id="Favorites" order="1" weight="0.32982087" />
       <window_info id="Structure" order="2" weight="0.24973656" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32932165" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3261105" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -318,6 +286,25 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27564102" />
+      <window_info id="Favorites" order="1" weight="0.32982087" />
+      <window_info id="Structure" order="2" weight="0.24973656" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32932165" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32932165" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/extractive-summarisation/api/flask.py" />
@@ -329,61 +316,61 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/extractive-summarisation/summariser/pageRank.py" />
-    <entry file="file://$PROJECT_DIR$/extractive-summarisation/summariser/calculateSimilarity.py">
+    <entry file="file://$PROJECT_DIR$/extractive-summarisation/summariser/topicmodeltest.py" />
+    <entry file="file://$PROJECT_DIR$/extractive-summarisation/summariser/topicmodel.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+        <state relative-caret-position="773">
+          <caret line="71" column="18" lean-forward="true" selection-end-line="71" selection-end-column="18" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/extractive-summarisation/summariser/controllers.py">
+    <entry file="file://$PROJECT_DIR$/extractive-summarisation/summariser/test-article2.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/extractive-summarisation/summariser/topicmodeltest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" lean-forward="true" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/extractive-summarisation/summariser/sentenceVectors.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/extractive-summarisation/summariser/cleanData.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="2" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/extractive-summarisation/page-rank-summariser.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="14" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="782">
+          <caret line="68" selection-start-line="68" selection-end-line="68" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/extractive-summarisation/summariser/test1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
+        <state relative-caret-position="646">
           <caret line="38" column="26" lean-forward="true" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extractive-summarisation/topic-model/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="63" column="39" selection-start-line="63" selection-start-column="39" selection-end-line="63" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/$Recycle.Bin/S-1-5-21-2883248802-3080251981-639745761-1001/$RXR8R5E.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extractive-summarisation/summariser/calculateSimilarity.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extractive-summarisation/page-rank-summariser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1030">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
@@ -397,29 +384,79 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/extractive-summarisation/summariser/controllers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extractive-summarisation/summariser/sentenceVectors.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extractive-summarisation/topic-model/test-article2.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extractive-summarisation/summariser/cleanData.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extractive-summarisation/topic-model/test1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="717">
+          <caret line="74" column="18" lean-forward="true" selection-start-line="74" selection-start-column="18" selection-end-line="74" selection-end-column="18" />
+          <folding>
+            <element signature="e#1#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extractive-summarisation/topic-model/svd_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="35" lean-forward="true" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extractive-summarisation/topic-model/prepare_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="29" selection-start-line="29" selection-end-line="32" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/extractive-summarisation/summariser/summariser.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        <state relative-caret-position="238">
+          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
           <folding>
             <element signature="e#0#16#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/extractive-summarisation/summariser/test-article2.txt">
+    <entry file="file://$PROJECT_DIR$/extractive-summarisation/topic-model/topic_recognition.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/extractive-summarisation/summariser/topicmodel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="671">
-          <caret line="65" column="48" lean-forward="true" selection-start-line="65" selection-start-column="48" selection-end-line="65" selection-end-column="48" />
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#0#25#0" expanded="true" />
           </folding>
         </state>
       </provider>

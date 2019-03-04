@@ -9,7 +9,6 @@ def createSummary(orginalSentences, pageRankScores):
     for i in range(3):
         s = s + " " + ranked_sentences[i][1]
     return s
-        # print(ranked_sentences[i][1])
 
 
 def runitAll(inputText):
@@ -17,7 +16,7 @@ def runitAll(inputText):
     cleanSentences1 = cleanData.clean_text(originalSentences1)
     sentenceVectors1 = sentenceVectors.create_sentenceVectors(cleanSentences1)
     matrix1 = calculateSimilarity.calculate_cosine_similarity(originalSentences1, sentenceVectors1)
-    scores1 = calculateSimilarity.pageRank(matrix1)
+    scores1 = calculateSimilarity.page_rank(matrix1)
     answer = createSummary(originalSentences1, scores1)
     return answer
 

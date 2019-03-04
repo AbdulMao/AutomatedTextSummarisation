@@ -2,10 +2,6 @@ import pandas as pd
 from nltk.tokenize import sent_tokenize
 from nltk.corpus import stopwords
 
-# Execute once
-# nltk.download('punkt')
-# nltk.download('stopwords')
-
 
 def split_sentences(text):
     sentences = sent_tokenize(text)
@@ -29,3 +25,9 @@ def clean_text(text):
     # Remove stopwords
     clean_sentences = [clean_stopwords(i.split()) for i in clean_sentences]
     return clean_sentences
+
+
+def remove_short_words(text):
+    for i in range(len(text)):
+        text[i] = " ".join([w for w in text[i].split() if len(w) > 3])
+    return text
