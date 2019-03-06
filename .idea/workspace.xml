@@ -3,23 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="083abe51-95c7-4578-8b44-0d0c58383f7e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extractive-summarisation/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extractive-summarisation/.idea/extractive-summarisation.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extractive-summarisation/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extractive-summarisation/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extractive-summarisation/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extractive-summarisation/summariser/calculateSimilarity.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extractive-summarisation/summariser/cleanData.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extractive-summarisation/summariser/controllers.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extractive-summarisation/summariser/sentenceVectors.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extractive-summarisation/summariser/summariser.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extractive-summarisation/summariser/test-article.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extractive-summarisation/summariser/test-article2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extractive-summarisation/topic-model/prepare_data.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extractive-summarisation/topic-model/svd_model.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extractive-summarisation/topic-model/test-article2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extractive-summarisation/topic-model/test1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extractive-summarisation/topic-model/topic_recognition.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/extractive_summarisation/summariser/api/controllers.py" beforeDir="false" afterPath="$PROJECT_DIR$/extractive_summarisation/summariser/api/controllers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extractive_summarisation/topic_model/api/controllers.py" beforeDir="false" afterPath="$PROJECT_DIR$/extractive_summarisation/topic_model/api/controllers.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/extractive_summarisation/topic_model/api/controllers.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/extractive_summarisation/summariser/api/controllers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="18" lean-forward="true" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+            <state relative-caret-position="272">
+              <caret line="16" column="38" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="38" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -45,13 +30,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/extractive_summarisation/summariser/api/controllers.py">
+        <entry file="file://$PROJECT_DIR$/extractive_summarisation/topic_model/api/controllers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="53" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
+            <state relative-caret-position="327">
+              <caret line="28" column="41" lean-forward="true" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
               <folding>
-                <element signature="e#0#41#0" expanded="true" />
+                <element signature="e#0#32#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/extractive_summarisation/topic_model/data/test-article-german.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="346" selection-end-column="424" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/extractive_summarisation/summariser/validation/language_detect.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="4" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -98,13 +101,19 @@
         <option value="$PROJECT_DIR$/extractive_summarisation/topic-model/src/topic_recognition.py" />
         <option value="$PROJECT_DIR$/extractive_summarisation/topic_model/src/topic_recognition.py" />
         <option value="$PROJECT_DIR$/extractive_summarisation/topic_model/src/__init__.py" />
+        <option value="$PROJECT_DIR$/extractive_summarisation/topic_model/data/test-article-german.txt" />
+        <option value="$PROJECT_DIR$/extractive_summarisation/topic_model/validation/__init__.py" />
+        <option value="$PROJECT_DIR$/extractive_summarisation/summariser/validation/__init__.py" />
+        <option value="$PROJECT_DIR$/extractive_summarisation/topic_model/validation/language_detect.py" />
+        <option value="$PROJECT_DIR$/extractive_summarisation/summariser/validation/language_detect.py" />
         <option value="$PROJECT_DIR$/extractive_summarisation/summariser/api/controllers.py" />
         <option value="$PROJECT_DIR$/extractive_summarisation/topic_model/api/controllers.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
+    <option name="x" value="243" />
+    <option name="y" value="15" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -132,7 +141,48 @@
               <item name="AutomatedTextSummarisation" type="b2602c69:ProjectViewProjectNode" />
               <item name="AutomatedTextSummarisation" type="462c0819:PsiDirectoryNode" />
               <item name="extractive_summarisation" type="462c0819:PsiDirectoryNode" />
+              <item name="summariser" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutomatedTextSummarisation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutomatedTextSummarisation" type="462c0819:PsiDirectoryNode" />
+              <item name="extractive_summarisation" type="462c0819:PsiDirectoryNode" />
+              <item name="summariser" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutomatedTextSummarisation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutomatedTextSummarisation" type="462c0819:PsiDirectoryNode" />
+              <item name="extractive_summarisation" type="462c0819:PsiDirectoryNode" />
+              <item name="summariser" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutomatedTextSummarisation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutomatedTextSummarisation" type="462c0819:PsiDirectoryNode" />
+              <item name="extractive_summarisation" type="462c0819:PsiDirectoryNode" />
+              <item name="summariser" type="462c0819:PsiDirectoryNode" />
+              <item name="validation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutomatedTextSummarisation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutomatedTextSummarisation" type="462c0819:PsiDirectoryNode" />
+              <item name="extractive_summarisation" type="462c0819:PsiDirectoryNode" />
               <item name="topic_model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutomatedTextSummarisation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutomatedTextSummarisation" type="462c0819:PsiDirectoryNode" />
+              <item name="extractive_summarisation" type="462c0819:PsiDirectoryNode" />
+              <item name="topic_model" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutomatedTextSummarisation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutomatedTextSummarisation" type="462c0819:PsiDirectoryNode" />
+              <item name="extractive_summarisation" type="462c0819:PsiDirectoryNode" />
+              <item name="topic_model" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -169,7 +219,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.summariser">
+  <component name="RunManager" selected="Python.controllers (1)">
     <configuration name="controllers (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="AutomatedTextSummarisation" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -183,6 +233,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/extractive_summarisation/summariser/api/controllers.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="controllers (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="AutomatedTextSummarisation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/extractive_summarisation/topic_model/api" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/extractive_summarisation/topic_model/api/controllers.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -212,6 +283,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="language_detect" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="AutomatedTextSummarisation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/extractive_summarisation/topic_model/validation" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/extractive_summarisation/topic_model/validation/language_detect.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="summariser" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="AutomatedTextSummarisation" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -233,55 +325,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test1 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="AutomatedTextSummarisation" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/extractive-summarisation/topic-model" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/extractive-summarisation/topic-model/test1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="topic_recognition" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="AutomatedTextSummarisation" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/extractive-summarisation/topic-model" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/extractive-summarisation/topic-model/topic_recognition.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.summariser" />
         <item itemvalue="Python.controllers (1)" />
+        <item itemvalue="Python.controllers (2)" />
+        <item itemvalue="Python.language_detect" />
+        <item itemvalue="Python.summariser" />
         <item itemvalue="Python.controllers" />
-        <item itemvalue="Python.topic_recognition" />
-        <item itemvalue="Python.test1 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -299,10 +349,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
+    <frame x="243" y="15" width="974" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20833333" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20833333" />
       <window_info id="Favorites" order="1" weight="0.32982087" />
       <window_info id="Structure" order="2" weight="0.24973656" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -439,10 +489,38 @@
     <entry file="file://$PROJECT_DIR$/extractive_summarisation/topic_model/src/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extractive_summarisation/summariser/validation/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extractive_summarisation/topic_model/validation/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extractive_summarisation/topic_model/validation/language_detect.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extractive_summarisation/summariser/validation/language_detect.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="4" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/extractive_summarisation/summariser/api/controllers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="53" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
+        <state relative-caret-position="272">
+          <caret line="16" column="38" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="38" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
@@ -451,11 +529,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/extractive_summarisation/topic_model/api/controllers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="18" lean-forward="true" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+        <state relative-caret-position="327">
+          <caret line="28" column="41" lean-forward="true" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
           <folding>
-            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#0#32#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extractive_summarisation/topic_model/data/test-article-german.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="346" selection-end-column="424" />
         </state>
       </provider>
     </entry>
