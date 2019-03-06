@@ -1,5 +1,5 @@
-import prepare_data as pd
-import svd_model as svd
+from extractive_summarisation.topic_model.src import prepare_data as pd
+from extractive_summarisation.topic_model.src import svd_model as svd
 
 def topic_recognition(text):
     text = pd.split_sentences(text)
@@ -9,3 +9,4 @@ def topic_recognition(text):
     topics = svd.create_svd(text)
 
     return topics
+
