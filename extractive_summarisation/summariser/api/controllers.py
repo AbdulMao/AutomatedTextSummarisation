@@ -1,10 +1,12 @@
 from flask import Flask, jsonify, request
+from flask_cors import CORS
 from flask_restful import Resource, Api
 from extractive_summarisation.summariser.src import summariser
 from extractive_summarisation.summariser.validation import language_detect
 
 app = Flask(__name__)
 api = Api(app)
+CORS(app)
 
 
 class Summariser(Resource):

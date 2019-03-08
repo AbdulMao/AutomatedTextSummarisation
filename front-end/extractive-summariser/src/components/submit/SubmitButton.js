@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './App.css';
+import makeRequest from './Request.js';
 import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
 import Button from '@material-ui/core/Button';
@@ -14,15 +14,17 @@ const styles = theme => ({
   },
 });
 
-function dothis(){
+function onClick(){
   const text = document.querySelector(".textbox").value;
-  console.log(text)
+  var myJSON = {"text": text };
+  makeRequest(myJSON);
+  console.log(myJSON)
 }
 
 function SubmitButton(props){
   const { classes } = props;
     return (
-      <Button onClick={dothis} variant="contained" color="secondary" className={classes.button} id = "submitButton">
+      <Button onClick={onClick} variant="contained" color="secondary" className={classes.button} id = "submitButton">
         Submit
       </Button>
     );

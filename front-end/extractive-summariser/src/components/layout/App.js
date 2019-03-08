@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
-import TextBox from './TextBox.js'
-import SubmitButton from './SubmitButton.js'
+import TextBox from '../textBox/TextBox.js' 
+import SubmitButton from '../submit/SubmitButton.js'
 
 
 class App extends Component {
