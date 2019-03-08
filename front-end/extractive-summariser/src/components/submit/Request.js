@@ -14,7 +14,13 @@ function makeRequest(myJSON){
     body:  JSON.stringify(myJSON)
   })
   .then(function(response){ 
-    console.log(response.json())
+    return response.json();
+  })
+  .then(function(myJson){
+    // const mySum = JSON.stringify(myJson)
+    const mySum = myJson
+    console.log(mySum.summary)
+    return mySum.summary
   })
   }
   

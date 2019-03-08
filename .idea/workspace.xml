@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="083abe51-95c7-4578-8b44-0d0c58383f7e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extractive_summarisation/summariser/api/controllers.py" beforeDir="false" afterPath="$PROJECT_DIR$/extractive_summarisation/summariser/api/controllers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/extractive-summariser/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/extractive-summariser/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/extractive-summariser/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/extractive-summariser/src/SubmitButton.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/extractive-summariser/src/TextBox.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/extractive-summariser/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/extractive-summariser/src/index.js" afterDir="false" />
-    </list>
+    <list default="true" id="083abe51-95c7-4578-8b44-0d0c58383f7e" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -307,7 +298,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="685" y="0" width="974" height="1047" extended-state="0" />
+    <frame x="825" y="36" width="974" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28846154" />
