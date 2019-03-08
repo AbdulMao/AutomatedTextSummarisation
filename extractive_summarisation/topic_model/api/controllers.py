@@ -1,10 +1,12 @@
 from flask import Flask, request
 from flask_restful import Resource, Api
+from flask_cors import CORS
 from extractive_summarisation.topic_model.src import topic_recognition
 from extractive_summarisation.topic_model.validation import language_detect
 
 app = Flask(__name__)
 api = Api(app)
+CORS(app)
 
 
 class TopicModeller(Resource):

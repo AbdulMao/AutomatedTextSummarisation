@@ -1,12 +1,8 @@
-function makeRequest(myJSON){
+function makeSummaryRequest(myJSON){
     var headers = {
       "Content-Type": "application/json",                                                                                                
       "Access-Control-Origin": "*"
    }
-   var data = {
-    "email": "peter@klaven",
-    "password": "cityslicka"
-  }
   
   fetch("http://localhost:5000/summary", {
     method: "POST",
@@ -14,8 +10,14 @@ function makeRequest(myJSON){
     body:  JSON.stringify(myJSON)
   })
   .then(function(response){ 
-    console.log(response.json())
+    return response.json();
+  })
+  .then(function(myJson){
+    // const mySum = JSON.stringify(myJson)
+    const mySum = myJson
+    console.log(mySum.summary)
+    return mySum.summary
   })
   }
   
-  export default makeRequest;
+  export default makeSummaryRequest;
