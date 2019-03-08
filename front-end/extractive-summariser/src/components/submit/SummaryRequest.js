@@ -1,12 +1,8 @@
-function makeRequest(myJSON){
+function makeSummaryRequest(myJSON){
     var headers = {
       "Content-Type": "application/json",                                                                                                
       "Access-Control-Origin": "*"
    }
-   var data = {
-    "email": "peter@klaven",
-    "password": "cityslicka"
-  }
   
   fetch("http://localhost:5000/summary", {
     method: "POST",
@@ -24,4 +20,4 @@ function makeRequest(myJSON){
   })
   }
   
-  export default makeRequest;
+  export default makeSummaryRequest;
