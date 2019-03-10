@@ -10,25 +10,6 @@ class HomePage extends Component {
       super(props)  
     }
 
-    // onClick = () => {
-    //     console.log("WE GOT THIS FAR")
-    //     const mytext = document.querySelector(".textbox").value;
-    //     console.log(myText)
-    //     this.props.history.push({
-    //         pathname: '/template',
-    //         state: {
-    //             myText: mytext
-    //         }
-                
-    //         })
-    //     // const text = document.querySelector(".textbox").value;
-    //     // var myJSON = {"text": text };
-    //     // makeSummaryRequest(myJSON);
-    //     // makeTopicRequest(myJSON);
-    //     // console.log(myJSON)
-        
-    // }
-
     render(){
         return (
             <div className="App">

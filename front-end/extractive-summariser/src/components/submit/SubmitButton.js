@@ -10,16 +10,6 @@ class SubmitButton extends Component {
   constructor(){
     super()  
   }
-
-  // onClick = () => {
-  //     // console.log("WE GOT THIS FAR")
-  //     // const text = document.querySelector(".textbox").value;
-  //     // var myJSON = {"text": text };
-  //     // makeSummaryRequest(myJSON);
-  //     // makeTopicRequest(myJSON);
-  //     // console.log(myJSON)
-  //     this.props.onPress()
-  // }
   onClick = () => {
     console.log("WE GOT THIS FAR")
     const mytext = document.querySelector(".textbox").value;
@@ -28,9 +18,8 @@ class SubmitButton extends Component {
         pathname: '/summary',
         state: {
             myText: mytext
-        }
-            
-        })
+        }            
+    })
     // const text = document.querySelector(".textbox").value;
     // var myJSON = {"text": text };
     // makeSummaryRequest(myJSON);
