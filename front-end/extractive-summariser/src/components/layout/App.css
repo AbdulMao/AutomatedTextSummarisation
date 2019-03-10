@@ -24,22 +24,22 @@
 }
 
 .Submit-button{
-  display:inline-block;
-  padding:0.35em 1.2em;
-  border:0.1em solid #FFFFFF;
-  margin:0 0.3em 0.3em 0;
-  border-radius:0.12em;
-  box-sizing: border-box;
-  text-decoration:none;
-  font-weight:300;
-  color:#FFFFFF;
-  text-align:center;
-  transition: all 0.2s;
+  color: #fff !important;
+  text-transform: uppercase;
+  background: #ed3330;
+  padding: 12px;
+  border-radius: 5px;
+  display: inline-block;
+  border: none;
   }
 
 .Submit-button:hover{
-  color:#000000;
-  background-color:#FFFFFF;
+  background: rgb(225, 0, 80);
+  letter-spacing: 1px;
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+  box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+  transition: all 0.4s ease 0s;
   }
 
 @media all and (max-width:30em){

@@ -1,20 +1,22 @@
 import React, { Component } from 'react';
+import { BrowserRouter, Route, Switch } from "react-router-dom"
 // import logo from './logo.svg';
 import './App.css';
 import TextBox from '../textBox/TextBox.js' 
 import SubmitButton from '../submit/SubmitButton.js'
+import HomePage from './HomePage.js'
+import ResultsPage from './ResultsPage.js'
 
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <body className="App-header">
-          {/* <img src={logo} className="App-logo" alt="logo" /> */}
-          <TextBox />
-          <SubmitButton />
-        </body>
-      </div>
+      <BrowserRouter>
+        <Switch>
+          <Route path="/" component={HomePage} exact />
+          <Route path="/summary" component={ResultsPage}  />
+        </Switch>   
+      </BrowserRouter>
     );
   }
 }
