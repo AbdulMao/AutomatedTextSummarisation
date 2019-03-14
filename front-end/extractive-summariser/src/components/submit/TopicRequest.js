@@ -4,7 +4,7 @@ function makeTopicRequest(myJSON){
       "Access-Control-Origin": "*"
    }
   
-  fetch("http://localhost:9000/topic", {
+  return fetch("http://localhost:9000/topic", {
     method: "POST",
     headers: headers,
     body:  JSON.stringify(myJSON)
@@ -12,11 +12,12 @@ function makeTopicRequest(myJSON){
   .then(function(response){ 
     return response.json();
   })
-  .then(function(myJson){
-    const myTopics = myJson
-    console.log(myTopics.topics)
-    return myTopics.topics
-  })
+  // .then(function(myJson){
+  //   const myTopics = myJson
+  //   console.log(myTopics.topics)
+  //   // return myTopics.topics
+  //   return myTopics
+  // })
   }
   
   export default makeTopicRequest;

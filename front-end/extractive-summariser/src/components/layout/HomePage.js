@@ -14,8 +14,20 @@ class HomePage extends Component {
         return (
             <div className="App">
                 <body className="App-header">
-                    <TextBox />
-                    <SubmitButton/>
+                    <div className="Logo-container"></div>
+                    <div className="Info-container">INFO</div>
+                    <div className="Input-container">
+                        <TextBox />
+                        {/* <select>
+                            <option value="volvo">50%</option>
+                            <option value="saab">30%</option>
+                            <option value="opel">20%</option>
+                            <option value="audi">10%</option>
+                        </select> */}
+                    </div>
+                    <div className="Submit-container">
+                        <SubmitButton/>
+                    </div>                        
                 </body>
             </div>        
         );

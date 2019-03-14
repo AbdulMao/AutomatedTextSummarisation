@@ -2,9 +2,6 @@ import React, { Component } from 'react';
 import { Link, withRouter} from "react-router-dom"
 import makeSummaryRequest from './SummaryRequest.js';
 import makeTopicRequest from './TopicRequest.js';
-import PropTypes from 'prop-types';
-import { hashHistory } from 'react-router-dom';
-
 
 class SubmitButton extends Component {
   constructor(){
