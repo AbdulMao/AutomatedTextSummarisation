@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 
 function TopicBox(props) {
-  console.log("TOPIC BOX")
-  console.log(props.topics)
     return (
       <div className="topic-box">
+        <p className="topic-header">Topics detected:</p>
         <ul>
             {(props.topics).map(topic => createTopicList(topic))}
+            
         </ul>
             
       </div>

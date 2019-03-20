@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 import TextBox from '../textBox/TextBox.js' 
 import SubmitButton from '../submit/SubmitButton.js'
-import makeSummaryRequest from '../submit/SummaryRequest.js';
-import makeTopicRequest from '../submit/TopicRequest.js';
+import PercentageDrop from '../submit/PercentageBox.js';
 
 
 class HomePage extends Component {
@@ -15,15 +14,13 @@ class HomePage extends Component {
             <div className="App">
                 <body className="App-header">
                     <div className="Logo-container"></div>
-                    <div className="Info-container">INFO</div>
+                    <div className="Info-container">
+                        Too Long; Didn't Read.
+                        Quickly get the information you need, saving time! 
+                    </div>
+                    <PercentageDrop/>
                     <div className="Input-container">
                         <TextBox />
-                        {/* <select>
-                            <option value="volvo">50%</option>
-                            <option value="saab">30%</option>
-                            <option value="opel">20%</option>
-                            <option value="audi">10%</option>
-                        </select> */}
                     </div>
                     <div className="Submit-container">
                         <SubmitButton/>

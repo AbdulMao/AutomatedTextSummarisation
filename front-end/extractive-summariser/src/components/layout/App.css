@@ -30,6 +30,10 @@
 
 .Info-container{
   text-align: center;
+  font-size: 17px;
+  font-family: cursive;
+  color: #ed3330;
+  text-transform: capitalize;
 }
 
 .Input-container{
@@ -43,7 +47,6 @@
 }
 
 .textbox{
-  margin-right: 75px;
   margin-top: 65px;
 }
 
@@ -66,6 +69,8 @@
     height: 500px;
     overflow: scroll;
     text-align: left;
+    display: inline-block;
+    margin-top: 20px;
 }
 
 .App-link {
@@ -80,7 +85,6 @@
   border-radius: 5px;
   display: inline-block;
   border: none;
-  margin-right: 75px;
   }
 
 .Submit-button:hover{
@@ -90,6 +94,28 @@
   -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
   box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
   transition: all 0.4s ease 0s;
+  }
+
+.topic-box{
+  display:block;
+  font-size: 17px;
+  
+  }
+
+
+
+.topic-header{
+    color: #ed3330;
+    font-family: cursive;
+    text-transform: capitalize;
+  }
+
+.Percentage-holder{
+  font-size: 17px;
+  margin-top: 45px;
+}
+li {
+    list-style-type: none;
   }
 
 @media all and (max-width:30em){

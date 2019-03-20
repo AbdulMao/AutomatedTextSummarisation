@@ -21,7 +21,7 @@ class ResultsPage extends Component {
         })
         makeSummaryRequest(myJSON).then( (dataReturned) => {
             this.setState({
-               mySummary: dataReturned.summary, 
+               mySummary: dataReturned, 
             })
         })
     
@@ -30,17 +30,14 @@ class ResultsPage extends Component {
 
 
     render(){
-        console.log(this.state.myTopics)
-        console.log("JIUA")
         if(!this.state.myTopics || !this.state.mySummary) return <p> loading </p>
         return (
-            <div className="App">
-                <body className="Results-page">
-                    {/* <div>Results: {this.state.myTopics}</div>     
-                    <div>summary: {this.state.mySummary}</div>   */}
-                    <TopicBox topics= {this.state.myTopics} />
-                    <SummaryBox summary= {this.state.mySummary} />
-
+            <div className="App">              
+                <body className="App-header">
+                    <div className="Logo-container"></div>
+                    <div className="Info-container">Here is your Summary:</div>
+                        <SummaryBox summary= {this.state.mySummary} percentage= {this.props.location.state.myPercentage} />
+                        <TopicBox topics= {this.state.myTopics} />    
                 </body>
             </div>   
               

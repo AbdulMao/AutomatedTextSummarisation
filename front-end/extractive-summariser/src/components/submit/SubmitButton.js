@@ -8,21 +8,15 @@ class SubmitButton extends Component {
     super()  
   }
   onClick = () => {
-    console.log("WE GOT THIS FAR")
     const mytext = document.querySelector(".textbox").value;
-    console.log(mytext)
+    var pValue = document.querySelector(".Percentage-values").value;
     this.props.history.push({
         pathname: '/summary',
         state: {
-            myText: mytext
+            myText: mytext,
+            myPercentage: pValue
         }            
     })
-    // const text = document.querySelector(".textbox").value;
-    // var myJSON = {"text": text };
-    // makeSummaryRequest(myJSON);
-    // makeTopicRequest(myJSON);
-    // console.log(myJSON)
-    
 }
 
   render(){
