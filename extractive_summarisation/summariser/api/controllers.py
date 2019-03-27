@@ -18,7 +18,8 @@ class Summariser(Resource):
         text = data_json['text']
         if language_detect.detect_lang(text) == 'en':
             summary = summariser.runitAll(text)
-            return {'summary': summary}, 200
+            # return {'summary': summary}, 200
+            return summary, 200
         else:
             return {'status': 'Wrong language, English only'}, 400
 

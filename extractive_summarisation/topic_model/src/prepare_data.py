@@ -30,4 +30,6 @@ def clean_text(text):
 def remove_short_words(text):
     for i in range(len(text)):
         text[i] = " ".join([w for w in text[i].split() if len(w) > 3])
+        text[i] = " ".join([w for w in text[i].split() if w != "said"])
+
     return text
