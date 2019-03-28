@@ -2,10 +2,66 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="083abe51-95c7-4578-8b44-0d0c58383f7e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extractive_summarisation/summariser/api/controllers.py" beforeDir="false" afterPath="$PROJECT_DIR$/extractive_summarisation/summariser/api/controllers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extractive_summarisation/summariser/src/summariser.py" beforeDir="false" afterPath="$PROJECT_DIR$/extractive_summarisation/summariser/src/summariser.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extractive_summarisation/topic_model/src/prepare_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/extractive_summarisation/topic_model/src/prepare_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/extractive-summariser/node_modules/handlebars/dist/amd/handlebars/base.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/extractive-summariser/node_modules/handlebars/dist/amd/handlebars/base.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/extractive-summariser/node_modules/handlebars/dist/amd/handlebars/compiler/helpers.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/extractive-summariser/node_modules/handlebars/dist/amd/handlebars/compiler/helpers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/extractive-summariser/node_modules/handlebars/dist/amd/handlebars/compiler/parser.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/extractive-summariser/node_modules/handlebars/dist/amd/handlebars/compiler/parser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/extractive-summariser/node_modules/handlebars/dist/amd/precompiler.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/extractive-summariser/node_modules/handlebars/dist/amd/precompiler.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/extractive-summariser/node_modules/handlebars/dist/cjs/handlebars/base.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/extractive-summariser/node_modules/handlebars/dist/cjs/handlebars/base.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/extractive-summariser/node_modules/handlebars/dist/cjs/handlebars/compiler/helpers.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/extractive-summariser/node_modules/handlebars/dist/cjs/handlebars/compiler/helpers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/extractive-summariser/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/extractive-summariser/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/extractive-summariser/node_modules/handlebars/dist/cjs/precompiler.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/extractive-summariser/node_modules/handlebars/dist/cjs/precompiler.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/extractive-summariser/node_modules/handlebars/dist/handlebars.amd.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/extractive-summariser/node_modules/handlebars/dist/handlebars.amd.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/extractive-summariser/node_modules/handlebars/dist/handlebars.amd.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/extractive-summariser/node_modules/handlebars/dist/handlebars.amd.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/extractive-summariser/node_modules/handlebars/dist/handlebars.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/extractive-summariser/node_modules/handlebars/dist/handlebars.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/extractive-summariser/node_modules/handlebars/dist/handlebars.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/extractive-summariser/node_modules/handlebars/dist/handlebars.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/extractive-summariser/node_modules/handlebars/dist/handlebars.runtime.amd.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/extractive-summariser/node_modules/handlebars/dist/handlebars.runtime.amd.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/extractive-summariser/node_modules/handlebars/dist/handlebars.runtime.amd.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/extractive-summariser/node_modules/handlebars/dist/handlebars.runtime.amd.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/extractive-summariser/node_modules/handlebars/dist/handlebars.runtime.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/extractive-summariser/node_modules/handlebars/dist/handlebars.runtime.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/extractive-summariser/node_modules/handlebars/dist/handlebars.runtime.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/extractive-summariser/node_modules/handlebars/dist/handlebars.runtime.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/extractive-summariser/node_modules/handlebars/lib/handlebars/base.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/extractive-summariser/node_modules/handlebars/lib/handlebars/base.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/extractive-summariser/node_modules/handlebars/lib/handlebars/compiler/helpers.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/extractive-summariser/node_modules/handlebars/lib/handlebars/compiler/helpers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/extractive-summariser/node_modules/handlebars/lib/handlebars/compiler/parser.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/extractive-summariser/node_modules/handlebars/lib/handlebars/compiler/parser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/extractive-summariser/node_modules/handlebars/lib/precompiler.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/extractive-summariser/node_modules/handlebars/lib/precompiler.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/extractive-summariser/node_modules/handlebars/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/extractive-summariser/node_modules/handlebars/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/extractive-summariser/node_modules/handlebars/release-notes.md" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/extractive-summariser/node_modules/handlebars/release-notes.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/extractive-summariser/node_modules/jest-runner/node_modules/source-map-support/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/extractive-summariser/node_modules/jest-runner/node_modules/source-map-support/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/extractive-summariser/node_modules/jest-runner/node_modules/source-map-support/browser-source-map-support.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/extractive-summariser/node_modules/jest-runner/node_modules/source-map-support/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/extractive-summariser/node_modules/jest-runner/node_modules/source-map-support/register.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/extractive-summariser/node_modules/jest-runner/node_modules/source-map-support/source-map-support.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/extractive-summariser/node_modules/jest-runner/node_modules/source-map/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/extractive-summariser/node_modules/jest-runner/node_modules/source-map/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/extractive-summariser/node_modules/jest-runner/node_modules/source-map/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/extractive-summariser/node_modules/jest-runner/node_modules/source-map/dist/source-map.debug.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/extractive-summariser/node_modules/jest-runner/node_modules/source-map/dist/source-map.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/extractive-summariser/node_modules/jest-runner/node_modules/source-map/dist/source-map.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/extractive-summariser/node_modules/jest-runner/node_modules/source-map/dist/source-map.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/extractive-summariser/node_modules/jest-runner/node_modules/source-map/lib/array-set.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/extractive-summariser/node_modules/jest-runner/node_modules/source-map/lib/base64-vlq.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/extractive-summariser/node_modules/jest-runner/node_modules/source-map/lib/base64.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/extractive-summariser/node_modules/jest-runner/node_modules/source-map/lib/binary-search.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/extractive-summariser/node_modules/jest-runner/node_modules/source-map/lib/mapping-list.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/extractive-summariser/node_modules/jest-runner/node_modules/source-map/lib/quick-sort.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/extractive-summariser/node_modules/jest-runner/node_modules/source-map/lib/source-map-consumer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/extractive-summariser/node_modules/jest-runner/node_modules/source-map/lib/source-map-generator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/extractive-summariser/node_modules/jest-runner/node_modules/source-map/lib/source-node.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/extractive-summariser/node_modules/jest-runner/node_modules/source-map/lib/util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/extractive-summariser/node_modules/jest-runner/node_modules/source-map/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/extractive-summariser/node_modules/jest-runner/node_modules/source-map/source-map.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/extractive-summariser/node_modules/jest-runner/node_modules/source-map/source-map.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/extractive-summariser/node_modules/jest-runner/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/extractive-summariser/node_modules/jest-runner/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/extractive-summariser/node_modules/jest/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/extractive-summariser/node_modules/jest/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/extractive-summariser/node_modules/source-map-support/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/extractive-summariser/node_modules/source-map-support/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/extractive-summariser/node_modules/source-map-support/browser-source-map-support.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/extractive-summariser/node_modules/source-map-support/browser-source-map-support.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/extractive-summariser/node_modules/source-map-support/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/extractive-summariser/node_modules/source-map-support/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/extractive-summariser/node_modules/source-map-support/source-map-support.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/extractive-summariser/node_modules/source-map-support/source-map-support.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/extractive-summariser/node_modules/write-file-atomic/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/extractive-summariser/node_modules/write-file-atomic/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/extractive-summariser/node_modules/write-file-atomic/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/extractive-summariser/node_modules/write-file-atomic/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/extractive-summariser/node_modules/write-file-atomic/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/extractive-summariser/node_modules/write-file-atomic/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/extractive-summariser/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/extractive-summariser/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/extractive-summariser/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/extractive-summariser/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/extractive-summariser/src/components/layout/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/extractive-summariser/src/components/layout/App.test.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,41 +73,81 @@
     <favorites_list name="AutomatedTextSummarisation" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/extractive_summarisation/summariser/api/controllers.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/extractive_summarisation/topic_model/data/test-article.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-column="142" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/extractive_summarisation/topic_model/api/controllers.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="34" column="23" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/extractive_summarisation/summariser/src/test_summary.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="289">
+                  <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+                  <folding>
+                    <element signature="e#0#15#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/extractive_summarisation/topic_model/src/prepare_data.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="561">
+                  <caret line="33" selection-start-line="33" selection-end-line="33" />
+                  <folding>
+                    <element signature="e#0#19#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/extractive_summarisation/topic_model/src/test_topic.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="357">
+                  <caret line="21" column="42" lean-forward="true" selection-start-line="3" selection-end-line="21" selection-end-column="42" />
+                  <folding>
+                    <element signature="e#0#15#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/extractive_summarisation/summariser/src/summariser.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="714">
+                  <caret line="42" column="30" lean-forward="true" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
+                  <folding>
+                    <element signature="e#0#61#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/extractive_summarisation/summariser/src/sentenceVectors.py">
+              <provider selected="true" editor-type-id="text-editor" />
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/extractive_summarisation/summariser/src/cleanData.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="493">
+                  <caret line="29" column="13" lean-forward="true" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+                  <folding>
+                    <element signature="e#0#19#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -103,6 +199,8 @@
         <option value="$PROJECT_DIR$/extractive_summarisation/summariser/src/summariser.py" />
         <option value="$PROJECT_DIR$/extractive_summarisation/topic_model/src/prepare_data.py" />
         <option value="$PROJECT_DIR$/extractive_summarisation/topic_model/src/svd_model.py" />
+        <option value="$PROJECT_DIR$/extractive_summarisation/topic_model/src/test_topic.py" />
+        <option value="$PROJECT_DIR$/extractive_summarisation/summariser/src/test_summary.py" />
       </list>
     </option>
   </component>
@@ -120,7 +218,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -137,33 +234,20 @@
               <item name="AutomatedTextSummarisation" type="b2602c69:ProjectViewProjectNode" />
               <item name="AutomatedTextSummarisation" type="462c0819:PsiDirectoryNode" />
               <item name="extractive_summarisation" type="462c0819:PsiDirectoryNode" />
-              <item name="topic_model" type="462c0819:PsiDirectoryNode" />
+              <item name="summariser" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AutomatedTextSummarisation" type="b2602c69:ProjectViewProjectNode" />
               <item name="AutomatedTextSummarisation" type="462c0819:PsiDirectoryNode" />
               <item name="extractive_summarisation" type="462c0819:PsiDirectoryNode" />
-              <item name="topic_model" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutomatedTextSummarisation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutomatedTextSummarisation" type="462c0819:PsiDirectoryNode" />
-              <item name="extractive_summarisation" type="462c0819:PsiDirectoryNode" />
-              <item name="topic_model" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutomatedTextSummarisation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutomatedTextSummarisation" type="462c0819:PsiDirectoryNode" />
-              <item name="extractive_summarisation" type="462c0819:PsiDirectoryNode" />
-              <item name="topic_model" type="462c0819:PsiDirectoryNode" />
+              <item name="summariser" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -194,7 +278,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.controllers (1)">
+  <component name="RunManager" selected="Python.test_summary">
     <configuration name="controllers (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="AutomatedTextSummarisation" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -237,48 +321,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="controllers" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="AutomatedTextSummarisation" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/extractive-summarisation/topic-model" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/extractive-summarisation/topic-model/controllers.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="language_detect" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="AutomatedTextSummarisation" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/extractive_summarisation/topic_model/validation" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/extractive_summarisation/topic_model/validation/language_detect.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="summariser" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="AutomatedTextSummarisation" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -300,13 +342,55 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test_summary" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="AutomatedTextSummarisation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/extractive_summarisation/summariser/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/extractive_summarisation/summariser/src/test_summary.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_topic" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="AutomatedTextSummarisation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/extractive_summarisation/topic_model/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/extractive_summarisation/topic_model/src/test_topic.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test_summary" />
+        <item itemvalue="Python.test_topic" />
         <item itemvalue="Python.controllers (1)" />
         <item itemvalue="Python.controllers (2)" />
         <item itemvalue="Python.summariser" />
-        <item itemvalue="Python.language_detect" />
-        <item itemvalue="Python.controllers" />
       </list>
     </recent_temporary>
   </component>
@@ -337,7 +421,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32936078" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -365,8 +449,6 @@
     </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/extractive-summarisation/summariser/pageRank.py" />
-    <entry file="file://$PROJECT_DIR$/extractive-summarisation/summariser/topicmodeltest.py" />
     <entry file="file://$PROJECT_DIR$/extractive-summarisation/summariser/topicmodel.py" />
     <entry file="file://$PROJECT_DIR$/extractive-summarisation/summariser/test-article2.txt" />
     <entry file="file://$PROJECT_DIR$/extractive-summarisation/summariser/test1.py" />
@@ -440,9 +522,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/extractive_summarisation/summariser/src/sentenceVectors.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/extractive_summarisation/summariser/validation/language_detect.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -456,16 +535,6 @@
     <entry file="file://$PROJECT_DIR$/extractive_summarisation/summariser/src/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/extractive_summarisation/summariser/src/summariser.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="603">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
-          <folding>
-            <element signature="e#0#61#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/extractive_summarisation/summariser/src/calculateSimilarity.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -475,10 +544,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/extractive_summarisation/topic_model/data/test-article.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="142" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extractive_summarisation/summariser/api/controllers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extractive_summarisation/topic_model/api/controllers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" column="23" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/extractive_summarisation/topic_model/src/topic_recognition.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="221">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
           <folding>
             <element signature="e#0#71#0" expanded="true" />
           </folding>
@@ -495,11 +591,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/extractive_summarisation/summariser/src/cleanData.py">
+    <entry file="file://$PROJECT_DIR$/extractive_summarisation/topic_model/src/test_topic.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="357">
+          <caret line="21" column="42" lean-forward="true" selection-start-line="3" selection-end-line="21" selection-end-column="42" />
           <folding>
-            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -514,32 +611,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/extractive_summarisation/topic_model/api/controllers.py">
+    <entry file="file://$PROJECT_DIR$/extractive_summarisation/summariser/src/summariser.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" column="23" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
+        <state relative-caret-position="714">
+          <caret line="42" column="30" lean-forward="true" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
           <folding>
-            <element signature="e#0#32#0" expanded="true" />
+            <element signature="e#0#61#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/extractive_summarisation/summariser/api/controllers.py">
+    <entry file="file://$PROJECT_DIR$/extractive_summarisation/summariser/src/cleanData.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+        <state relative-caret-position="493">
+          <caret line="29" column="13" lean-forward="true" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
           <folding>
-            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/extractive_summarisation/topic_model/data/test-article.txt">
+    <entry file="file://$PROJECT_DIR$/extractive_summarisation/summariser/src/test_summary.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="142" />
+        <state relative-caret-position="289">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extractive_summarisation/summariser/src/sentenceVectors.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>

@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Homepage matches snapshot 1`] = `
+<div
+  className="App"
+>
+  <body
+    className="App-header"
+  >
+    <div
+      className="Logo-container"
+    />
+    <div
+      className="Info-container"
+    >
+      Too Long; Didn't Read. Quickly get the information you need, saving time!
+    </div>
+    <div
+      className="Percentage-holder"
+      id="Percentage-holder"
+    >
+      Choose summary size:  
+      <select
+        className="Percentage-values"
+      >
+        <option
+          value="50"
+        >
+          50%
+        </option>
+        <option
+          value="30"
+        >
+          30%
+        </option>
+        <option
+          value="20"
+        >
+          20%
+        </option>
+        <option
+          value="10"
+        >
+          10%
+        </option>
+      </select>
+    </div>
+    <div
+      className="Input-container"
+    >
+      <div
+        className="textbox-holder"
+      >
+        <textarea
+          className="textbox"
+          cols="70"
+          placeholder="Enter text to be summarised here"
+          rows="20"
+        />
+      </div>
+    </div>
+    <div
+      className="Submit-container"
+    >
+      <button
+        className="Submit-button"
+        onClick={[Function]}
+      >
+        Submit
+      </button>
+    </div>
+  </body>
+</div>
+`;
