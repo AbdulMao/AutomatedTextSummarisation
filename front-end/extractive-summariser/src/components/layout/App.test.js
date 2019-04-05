@@ -6,6 +6,7 @@ import renderer from 'react-test-renderer'
 import { MemoryRouter as Router, withRouter } from 'react-router-dom';
 import ResultsPage from './ResultsPage.js';
 import SubmitButton from '../results/SummaryBox.js'
+import TopicBox from '../results/TopicBox';
 
 const returnPercentageList = jest.fn(() => 4);
 const homepagePageInfo = jest.fn(() => "Too Long; Didn't Read.Quickly get the information you need, saving time! ");
@@ -26,6 +27,13 @@ it('Homepage matches snapshot', () => {
      </Router>).toJSON()
   expect(tree).toMatchSnapshot()
 });
+
+it('renders an input box', () => {
+  const wrapper = shallow(<TopicBox />);
+  expect(wrapper.find('.topic-box')).to.have.lengthOf(1);
+});
+
+
 
 test ('all percentage choices are presented', ()=> {
   expect(returnPercentageList()).toBe(4);

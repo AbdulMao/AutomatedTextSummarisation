@@ -3,6 +3,7 @@ from flask_cors import CORS
 from flask_restful import Resource, Api
 from extractive_summarisation.summariser.src import summariser
 from extractive_summarisation.summariser.validation import language_detect
+from extractive_summarisation.summariser.validation import length_detect
 
 app = Flask(__name__)
 api = Api(app)
@@ -14,14 +15,19 @@ class Summariser(Resource):
         return {'about': 'Text Summariser'}
 
     def post(self):
+
         data_json = request.get_json(force=True)
         text = data_json['text']
+
         if language_detect.detect_lang(text) == 'en':
-            summary = summariser.runitAll(text)
-            # return {'summary': summary}, 200
-            return summary, 200
-        else:
             return {'status': 'Wrong language, English only'}, 400
+
+        elif not length_detect.length(text):
+            return {'status': 'Too short to summarise'}, 400
+
+        else:
+            summary = summariser.runitAll(text)
+            return summary, 200
 
 
 class HealthCheck(Resource):

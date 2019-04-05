@@ -33,6 +33,6 @@ api.add_resource(HealthCheck, '/health')
 
 if __name__ == '__main__':
     app.run(debug=True,
-            host=app.config.get("HOST", "localhost"),
+            host=app.config.get("`HOST", "localhost"),
             port=app.config.get("PORT", 9000)
             )
